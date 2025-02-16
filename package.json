@@ -23,7 +23,9 @@
     "preview": "astro preview",
     "start": "astro dev"
   },
-  
+  "engines": {
+    "node": ">=20"
+  },
   "type": "module",
   "version": "0.0.1",
   "devDependencies": {
