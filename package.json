@@ -23,9 +23,10 @@
     "preview": "astro preview",
     "start": "astro dev"
   },
-  "engines": {
-  "node": ">=20"
-},
+  
   "type": "module",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "devDependencies": {
+    "serverless-offline": "^14.4.0"
+  }
 }
