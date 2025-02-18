@@ -3,11 +3,9 @@ import tailwind from "@astrojs/tailwind";
 import svelte from "@astrojs/svelte";
 import react from "@astrojs/react";
 
-import amplify from "astro-aws-amplify";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), svelte(), react()],
-  output: 'server',
-  adapter: amplify()
+  output: 'static',
 });
